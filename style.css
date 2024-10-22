@@ -1,0 +1,59 @@
+a:visited
+{
+    color: rgb(27, 196, 142);
+}
+h1{
+    /*text-align: center;*/
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: blanchedalmond;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    border-width: 2px;
+    width: 100vw;
+    box-sizing: border-box;
+}
+a:link{
+    color: yellow;
+}
+a:active
+{
+    background-color: blueviolet;
+}
+a:hover
+{
+    background-color: darkgoldenrod;
+}
+.baba {
+    font-style: italic;
+    font-weight: bolder;
+    text-decoration: underline;
+    background-color: peachpuff;
+    margin: 5px;
+     padding: 15px;
+     border: 3px solid rebeccapurple;
+     height: 100px;
+     box-sizing: border-box;
+}
+#froosh {
+    background-color: brown;
+}
+#lorem{
+    text-transform: capitalize;
+    border: 4px solid rgb(17, 24, 3);
+    width: 200px;
+    text-overflow: clip;
+    color: rgba(23, 44, 42, 0.7);
+    word-break: keep-all;
+    overflow:hidden;
+    margin: 15px;
+    padding: 10px;
+}
+h2{
+    color: brown;
+    text-decoration: underline;
+    text-decoration-color: rgb(74, 107, 24);
+    text-decoration-style: dotted ;
+    text-indent: 19px;
+    text-decoration-thickness: 10px;
+}

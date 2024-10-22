@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parent{
+            border: 2px solid;
+            position: relative;
+            margin-top: 30px;
+        }
+        .box{
+            border: 4px solid rebeccapurple;
+            height: 100px;
+            width: 70vw;
+            padding: 4px;
+            margin: 6px;
+            /* z-index: -1; */
+        }
+        .box1{
+            margin: 0;
+            position: fixed;
+            bottom : 17px;
+            background-color: burlywood;
+            /* position: relative; */
+            left: 80px;
+            height: 15vw;
+        }
+        .box2{
+            top: 0;
+            margin: 0;
+            padding: 0;
+            background-color: brown;
+            height: 5vh;
+            width: 100%;
+            position: sticky;
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+    <div class="box1 box"></div>
+    <div class="box2 box"></div>
+    
+    <div class="box3 box"></div>
+    <div class="box3 box"></div>
+    <div class="box3 box"></div>
+    <div class="box3 box"></div>
+    <div class="box4 box"></div>
+    </div>
+</body>
+</html>
