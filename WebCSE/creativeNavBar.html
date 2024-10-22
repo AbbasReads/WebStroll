@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Volksvagen-Das Auto</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        ul {
+            /* border-bottom: 2px solid; */
+            /* color: white; */
+            list-style: none;
+            display: flex;
+            margin-top: 20px;
+        }
+
+        .l1>li {
+            font-family: "Manrope", sans-serif;
+            font-size: 14px;
+            /* font-optical-sizing: 32px; */
+            font-weight: 400;
+            font-style: normal;
+            padding: 6px 33px;
+            color: #0e2250;
+        }
+
+        .l2>li {
+            font-size: 14px;
+            font-family: "Manrope", sans-serif;
+            /* font-optical-sizing: auto; */
+            font-weight: 400;
+            font-style: normal;
+            color: #0e2250;
+            padding: 6px 8px;
+        }
+
+        nav {
+            /* background-color: black; */
+            justify-content: space-evenly;
+            display: flex;
+        }
+
+        #LOGO {
+            height: 80px;
+        }
+
+        /* nav:first-child, :nth-child(3){
+            margin-top: 20px;
+        } */
+        .Line {
+            position: absolute;
+            top: 50px;
+            background-color: #0e2250;
+            height: 1px;
+            width: 100vw;
+            z-index: -2;
+        }
+
+        li:hover {
+            background-color: #0e2250;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div>
+            <ul class="l1">
+                <li>Home</li>
+                <li>Cars</li>
+                <li>R&D</li>
+            </ul>
+        </div>
+        <div>
+            <img id="LOGO" src="DB2019AL01950_medium.jpg" alt="logo">
+        </div>
+        <div>
+            <ul class="l2">
+                <li>Order</li>
+                <li>Customer Care</li>
+                <li>Join Us</li>
+            </ul>
+
+        </div>
+    </nav>
+    <div class="Line"></div>
+    <!-- <hr> -->
+</body>
+
+</html>

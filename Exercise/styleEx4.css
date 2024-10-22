@@ -1,0 +1,45 @@
+:root{
+    --bgcol:rgb(177, 103, 12);
+    --textcol:rgb(76, 7, 7);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+div>input{
+    margin: 10px 100px;
+}
+input::placeholder{
+    color: rgb(98, 86, 72);
+    margin: 10px;
+    padding: 10px;
+}
+nav{
+    margin-top: 10px;
+    background-color: var(--bgcol);
+}
+ul{
+    padding: 0 5px;
+    margin: 0 20vw;
+    list-style: none;
+    display: flex;
+}
+h1{
+    padding-top: 4vh;
+    text-align: center;
+}
+li{
+    border-radius: 20px;
+    margin: 10px 1vw;
+    background-color: chocolate;
+    color: var(--textcol);
+    padding: 0.5vh 3vw;
+}
+h1{
+    font-weight: 3;
+    opacity: 0.7;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+*::selection{
+    color: rgba(156, 9, 9, 0.769);
+}

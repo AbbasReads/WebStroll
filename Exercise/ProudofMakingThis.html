@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout Design</title>
+</head>
+<style>
+    .boxes{
+        z-index: -5;
+           border: 2px solid maroon;
+           background-color: blanchedalmond;
+    }
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    nav{
+        margin: 0;
+        padding: 0;
+        top: 0;
+        position: sticky;
+    }
+    nav>ul{
+        padding: 8px 0;
+        background-color: rgb(9, 122, 84);
+    }
+    nav>ul>li:hover{
+             color: rgb(123, 177, 123);
+    }
+    nav>ul>li{
+        list-style: none;
+        padding: 0px 12px;
+        display: inline;
+        color: white;
+    }
+    #box1, #box2{
+        display: inline-block;
+        background-color:yellowgreen;
+        height: 400px;
+        width: 400px;
+    }
+    #box1{
+        margin: 40px 40px 50px 50px;
+    }
+    #box2{
+        margin: 40px 40px 50px 50px;
+    }
+    #fix{
+        /* position: relative; */
+        background-color: blue;
+        width: 30px;
+        height: 30px;
+        z-index: 70;
+        border-radius: 1000px;
+        margin: 0;
+        padding: 0;
+        position: fixed;
+        right: 25px;
+        bottom: 25px;
+    }
+    p{
+        width: 50vw;
+        border:2px solid gray;
+        border-radius: 30px;
+        text-align: center;
+        margin: 25px 28vw  0 28vw;
+        padding: 10px 30px;
+        font-size: 30px;
+    }
+    #footer{
+        position: relative;
+        background-color: aquamarine;
+        margin-top:200px;
+        bottom: 0px;
+        padding: 20px 0;
+        text-align: center;
+    }
+</style>
+<body>
+    <nav>
+        <ul>
+            <li>Home</li>
+            <li>Stuff</li>
+            <li>More Stuff</li>
+        </ul>
+    </nav>
+    <div class="boxes">
+        <div id="box1"></div>
+        <div id="box2"></div>
+    </div>
+    <div id="fix"></div>
+    <p>Welcome to my Area!</p>
+    <div id="footer">
+         Please don't contact us, we don't prefer talkative clients
+    </div>
+</body>
+</html>

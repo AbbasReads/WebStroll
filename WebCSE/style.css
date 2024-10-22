@@ -1,0 +1,149 @@
+* {
+    background-color: #f9e6d1;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    margin-top: 20px;
+}
+
+.l1>li {
+    font-family: "Manrope", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    padding: 6px 33px;
+    color: rgba(66, 33, 11, 255);
+}
+
+.l2>li {
+    font-size: 14px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgba(66, 33, 11, 255);
+    padding: 6px 8px;
+}
+
+nav {
+    justify-content: space-evenly;
+    display: flex;
+}
+
+#LOGO {
+    position: relative;
+    top: 6px;
+    height: 70px;
+    z-index: 5;
+}
+
+.Line {
+    position: absolute;
+    top: 50px;
+    background-color: rgb(66, 33, 11);
+    height: 1px;
+    width: 100vw;
+    transform: translate(-10px);
+    
+}
+
+li:hover {
+    background-color: rgb(66, 33, 11);
+    color: white;
+    cursor:pointer;
+}
+main>div{
+    border-radius: 4px;
+}
+main{
+    margin: 10px 5px;
+    padding: 3px;
+    display: grid;
+    grid-template-columns: 3fr 5fr 2fr;
+    gap: 35px;
+}
+.profile {
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    grid-column: 1;
+}
+.profimg {
+    background-color: white;
+    
+    
+    border: 1.3px solid brown;
+    
+    height: 80px;
+    width: 70px;
+    object-fit: cover;
+    border-radius: 15px;
+
+}
+.name {
+    margin: 5px 0 0 0;
+    background-color: white;
+    font-weight: 600;
+}
+button{
+    background-color: burlywood;
+    border-radius: 7px;
+    padding: 4px;
+    border: 1.4px solid brown;
+}
+.about {
+    background-color: white;
+    padding: 10px 20px;
+}
+.actions{
+    grid-column: 2;
+    align-items: center;
+    
+}
+.post{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 5px;
+}
+.post>div{
+    margin: 10px;
+    
+}
+.text{
+    width: 40vw;
+    background-color: wheat;
+    border-radius: 4px;
+    margin: 5px;
+    padding: 8px;
+    border: 2px solid brown;
+}
+.line2{
+    display: flex;
+    width: 40vw;
+    justify-content: space-between;
+    align-items: center;
+}   
+.adshead{
+    /* background-color: white; */
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+}
+.ads{
+    width: 13vw;
+    border: 1.7px solid peru;
+    /* background-color: white; */
+}
+.ad, .ad>div{
+    background-color: white;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
