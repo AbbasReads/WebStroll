@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input</title>
+    <style>
+        div{
+            margin: 10px;
+            padding: 3px;
+            position: relative;
+        }
+        input{
+            height: 20px;
+            border-radius: 4px;
+            /* border: 1px solid red; */
+        }
+        input:focus{
+            border-radius: 10px;
+            /* border: 1px solid red; */
+        }
+        label{
+            /* position: relative; */
+            position: absolute;
+            padding: 0 7px;
+            top: -5px;
+            left:15px;
+            background-color: white;
+            /* width: 84px; */
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <label for="name">Name</label>
+        <input type="text" id="name">
+    </div>
+    <div>
+        <label for="name">Email</label>
+        <input type="email">
+    </div>
+    <div>
+        <label for="name">Username</label>
+        <input type="text">
+    </div>
+    <div>
+        <label for="name">Password</label>
+        <input type="password">
+    </div>
+</body>
+</html>
