@@ -1,0 +1,103 @@
+html{
+    scroll-behavior:smooth;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: #0e2250;
+    /* height: 100%; */
+    /* width: 100%; */
+    padding: 26px 5px;
+}
+.l1,.l2 {
+    list-style: none;
+    display: flex;
+    align-items:center;
+}
+.l1>li {
+    font-family: "Manrope", sans-serif;
+    font-size: 20px;
+    /* font-optical-sizing: 32px; */
+    font-weight: 400;
+    font-style: normal;
+    padding: 0 33px;
+    color: #0e2250;
+}
+.l1>li,.l2>li{
+    /* margin: auto; */
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+.l2>li {
+    font-size: 20px;
+    font-family: "Manrope", sans-serif;
+    /* font-optical-sizing: auto; */
+    font-weight: 400;
+    font-style: normal;
+    color: #0e2250;
+    padding: 0 8px;
+}
+
+nav {
+    /* background-color: black; */
+    justify-content: space-evenly;
+    display: flex;
+    height: 80px;
+}
+
+#LOGO {
+    height: 80px;   
+}
+
+/* nav:first-child, :nth-child(3){
+    margin-top: 20px;
+} */
+.Line {
+    position: absolute;
+    top: 80px;
+    background-color: #0e2250;
+    height: 1px;
+    width: 99vw;
+    z-index: -2;
+}
+p, .skills{
+    
+    margin:20px 20vw;
+    width: 60vw;
+}
+.l1>li:hover, .l2>li:hover {
+    background-color: #0e2250;
+}
+.l1>li:hover a, .l2>li:hover a{
+color: white;
+}
+.contactme>h1{
+    align-self: flex-start;
+}
+.contactme input,.contactme textarea{
+    /* padding: 10px; */
+    /* margin:0 15px 15px 15px; */
+}
+h1{
+    padding: 5px;
+    margin: 10px;
+}
+.super{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 19px;
+}
+
+.contactme{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#Name, #Email,#message{
+    width: 20vw;
+}
