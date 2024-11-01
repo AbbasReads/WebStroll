@@ -265,6 +265,7 @@ h1 {
 
 textarea {
     height: 100px;
+    margin: 10px;
 }
 
 .contactme {
@@ -344,6 +345,10 @@ button {
 }
 
 .head {
+    background-image: url(back.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
     margin: 10px;
     text-align: center;
     padding: 5px;
@@ -369,7 +374,7 @@ button {
 }
 
 .project:hover .head>div {
-    opacity: 0.7;
+    opacity: 0.9;
 }
 
 a>img {
