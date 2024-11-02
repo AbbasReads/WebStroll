@@ -267,7 +267,24 @@ textarea {
     height: 100px;
     margin: 10px;
 }
-
+#aboutme>ul{
+    width: 350px;
+list-style:lower-roman;
+    margin: auto;
+}
+@media screen and (max-width:460px) {
+    #aboutme>ul{
+        width: 250px;
+    }
+}
+footer span{
+    color:#b8ceffe3;
+}
+.subproject>p{
+    width: 220px;
+    margin: 3px;
+    text-align: center;
+}
 .contactme {
     display: flex;
     flex-direction: column;
